@@ -581,7 +581,7 @@ body{
 
 
 /* Smartphone */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 767px){
     /* Home */
 	nav{
         flex-direction: column ;
@@ -632,6 +632,7 @@ body{
 		align-items: center;
 	}
 	.skill{
+        width: 500px;
 		height: 1350px;
 	}
 	.skill-text{
