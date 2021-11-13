@@ -94,19 +94,17 @@ nav .navbar a:hover {
 	bottom:0px;
 	left:57%;
 }
-
 .text-container p:nth-child(2){
 	font-family:calibri;
 	font-weight:bold;
-	letter-spacing:1px;
+	letter-spacing:0.5px;
 	color:#1a1a1a;
-	font-size:60px;
+	font-size:45px;
 }
 .text-container p:nth-child(3){
 	font-family: myriad pro regular;
 	color: #403e3e;
-	font-size:30px;
-	line-height:30px;
+	font-size:20px;
 }
 
 .text-container p{
@@ -452,7 +450,7 @@ body{
 }
 .box-container-music img{
 	width: 120px;
-	height: 165px;
+	height: 185px;
 	margin-top: 5px;
 	
 }
@@ -465,8 +463,14 @@ body{
 .one-pare{
 	margin: 5px 5px 0 0;
 }
+.one-pare p{
+	padding: 5px;
+}
 .two-pare{
 	margin: 5px 0 0 0;
+}
+.two-pare p{
+	padding: 5px;
 }
 .box-music-1{
 	margin-bottom: 5px;
@@ -621,6 +625,72 @@ body{
 		margin-left: 20px;
 		margin: 20px;
 	}
+	/* hobby */
+	.hobby-container{
+		height: 240vh;
+		width: 100%;
+	}
+	.hobby-container .box-hobby-container{
+		display: grid;
+		margin-left: 85px;
+	}
+	.custome-about-hobby{
+		margin-top: 645px;
+	}
+	.box-hobby-1,
+	.box-hobby-2,
+	.box-hobby-3{
+		margin: 10px;
+		width: 75%;
+		height: 48vh;
+		background-color: rgb(95, 94, 94);
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	}
+	.box-hobby-2{
+		width:75%;
+		background-color: white;
+	}
+	.box-hobby-2 .text-box-2{
+		font-size: 15px;
+		width: 360px;
+	}
+	.box-hobby-2 .text-box-2 h1{
+		margin: 40px 10px 0 177px;
+	
+		
+	}
+
+
+	.box-container-music{
+		/* background-color: yellow; */
+		display: flex;
+		margin: 30px;
+	}
+	.box-container-music img{
+		width: 220px;
+		height: 185px;
+		margin-top: 5px;
+		
+	}
+	.box-container-music .box-text{
+		display: flex;
+		/* background-color: violet; */
+		margin-left: 5px;
+	
+	}
+	.one-pare{
+		margin: 5px 5px 0 0;
+		width: 350px;
+	}
+	.one-pare p{
+		padding: 14px 14px;
+	}
+	.two-pare{
+		margin: 5px 0 0 0;
+	}
+	.two-pare p{
+		padding: 14px;
+	}
 
 }
 
@@ -661,7 +731,7 @@ body{
 		display: none;
 	}
 	.text-container{
-		margin-left:70px;
+		margin-left:60px;
 
 	}
 	.about-container{
@@ -675,9 +745,10 @@ body{
 		margin-top: 30px;
 		margin-left: 20px;
 	}
-	.about-text{
-		width:350px;
-		margin-left: 20px;
+	.about-container .about-text{
+		/* width:350px; */
+		margin: 5px;
+		padding: 5px;
 	} 
 	.about-center{
 		display: flex;
@@ -692,7 +763,6 @@ body{
 	}
 	.box-container{
 		display: grid;
-		padding: 0 45px;
 	}
 	.box-1,
 	.box-2,
@@ -702,16 +772,26 @@ body{
 	/* contect */
 	.contener{
 		display: grid;
-		height: 300vh;
+		height: 250vh;
+		margin: 10px;
 	}
 	.form-container{
-		width: 415px;
-		margin-bottom: -250px;
+		width: 350px;
+		margin-bottom: -500px;
 		margin-left: 10px;
 	}
 	.map{
-		margin-bottom: 700px;
-		margin-left: 10px;
+		width: 350px;
+		/* margin-bottom: 700px;
+		margin-left: 10px; */
+		margin:  0 10px 850px 10px;
+		
+	}
+	.map iframe{
+		width: 330px;
+		/* height: 100%; */
+		margin-bottom: 00px;
+		margin-left: 0px;
 		
 	}
 	.about-container-co{
@@ -746,13 +826,93 @@ body{
 		margin-left: 30px;
 	}
 	.about-container-custome .about-text{
-		width: 85%;
+		width: 100%;
+	}
+	.about-container-custome .about-text p{
+		font-size: 12px;
 	}
 	.custome-about .custome-img{
-		width: 50%;
-		height: 30vh;
+		width: 55%;
+		height: 25vh;
 		margin-left: 20px;
 	}
 
+	/* hobby */
+	.hobby-container{
+		height: 267vh;
+	}
+	.hobby-container .box-hobby-container{
+		display: grid;
+		margin-left: 50px;
+	}
+	.custome-about-hobby{
+		margin-top: 745px;
+	}
+	.box-hobby-1,
+	.box-hobby-2,
+	.box-hobby-3{
+		margin: 10px;
+		width: 75%;
+		height: 48vh;
+		background-color: rgb(95, 94, 94);
+		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	}
+	.box-hobby-2{
+		width:75%;
+		background-color: white;
+	}
+	.box-hobby-2 .text-box-2{
+		font-size: 12px;
+		width: 309px;
+	}
+	.box-hobby-2 .text-box-2 h1{
+		margin: 40px 10px 0 168px;
+	
+		
+	}
+	.box-hobby-3 .text-box-3{
+		font-size: 12px;
+	}
+	.box-hobby-3 .text-box-3 h1{
+		font-size: 13px;
+	}
+	
+	.box-container-music{
+		display: flex;
+		margin: 10px;
+	}
+	.box-container-music img{
+		width: 150px;
+		height: 150px;
+		margin-top: 35px;
+		
+	}
+	.box-hobby-1 .mt{
+		margin-top: 40px;
+	}
+	.box-container-music .box-text{
+		display: flex;
+		/* margin-left: 5px; */
+		width: 100%;
+		margin-top: 30px;
+	} 
+	.one-pare{
+		/* margin: 5px 5px 0 0; */
+		width: 50%;
+	}
+	.one-pare p{
+		text-align: center;
+		padding: 0;
+		font-size: 8px;
+	}
+	.two-pare{
+		/* margin: 5px 0 0 0; */
+		width: 50%;
+	} 
+	.two-pare p{
+		padding: 0px;
+		text-align: center;
+		font-size: 8px;
+	}
 	
 }
