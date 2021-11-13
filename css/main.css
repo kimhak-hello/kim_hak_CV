@@ -14,7 +14,7 @@ body{
 section{
 	width:100%;
 	height:95vh;
-	background-image:url("../image/bg1.png");
+	background-image:url("../images/bg1.png");
 	background-size:cover;
 	background-repeat:no-repeat;
 	position: relative;
@@ -230,13 +230,13 @@ nav .navbar a:hover {
 }
 
 .box-1{
-	background-image:url("../image/services-1.png");
+	background-image:url("../images/services-1.png");
 }
 .box-2{
-	background-image:url("../image/services-2.png");
+	background-image:url("../images/services-2.png");
 }
 .box-3{
-	background-image: url("../image/servies-3.png");
+	background-image: url("../images/servies-3.png");
 }
 .box-1 span,
 .box-2 span,
@@ -408,7 +408,6 @@ textarea{
 
 }
 
-
 /* Hobby */
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Open+Sans&family=Qahiri&family=Roboto:wght@100&family=UnifrakturMaguntia&display=swap');
 body{
@@ -498,7 +497,7 @@ body{
 	color: black;
 }
 .box-hobby-2{
-	background-image: url(/image/swimming.jpg);
+	background-image: url(/images/swimming.jpg);
 	width:30%;
 	height:48vh;
 	background-size:contain;
@@ -507,7 +506,7 @@ body{
 	background-color: white;
 }
 .box-hobby-3{
-	background-image: url(/image/guitar.jpg);
+	background-image: url(/images/guitar.jpg);
 	width:30%;
 	height:48vh;
 	background-size:cover;
@@ -549,9 +548,27 @@ body{
 .custome-about .custome-img{
 	width: 30%;
 	height: 52.5vh;
-	margin-right: 255px;
+	margin-left: -128px;
 }
-
+.about-container-custome{
+	margin-top: 2px;
+	width:100%;
+	height:330px;
+	background:#1171E2;
+	/* border-radius:20px; */
+	/* box-shadow:2px 2px 12px rgba(0,0,0,0.2); */
+	display: flex;
+	/* margin: -7%  auto 20px auto; */
+	/* position: relative; */
+	justify-content:space-evenly;
+	align-items: center;
+}
+.about-container-custome img{
+	height:330px;
+}
+.about-container-custome .about-text p{
+	color: black;
+}
 
 
 
@@ -647,7 +664,6 @@ body{
 		align-items: center;
 	}
 	.skill{
-        width: 500px;
 		height: 1350px;
 	}
 	.skill-text{
