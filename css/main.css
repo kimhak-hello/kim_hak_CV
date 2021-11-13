@@ -542,13 +542,15 @@ body{
 .custome-about-hobby{
 	margin-top: 30px;
 }
+
+/* about */
 .custome-about{
 	margin-top: 30px;
 }
 .custome-about .custome-img{
 	width: 30%;
 	height: 52.5vh;
-	margin-left: -128px;
+	margin-left: -130px;
 }
 .about-container-custome{
 	margin-top: 2px;
@@ -564,7 +566,8 @@ body{
 	align-items: center;
 }
 .about-container-custome img{
-	height:330px;
+	height:280px;
+	margin-left: -90px;
 }
 .about-container-custome .about-text p{
 	color: black;
@@ -601,6 +604,23 @@ body{
 	.contener{
 		padding: 0 20px;
 	}
+	/* about */
+	.about-container-custome{
+		width: 100%;
+	}
+	.about-container-custome img{
+		height: 260px;
+		margin-left: 30px;
+	}
+	.about-container-custome .about-text{
+		width: 95%;
+	}
+	.custome-about .custome-img{
+		width: 50%;
+		height: 40vh;
+		margin-left: 20px;
+		margin: 20px;
+	}
 
 }
 
@@ -616,6 +636,7 @@ body{
 @media screen and (max-width: 767px){
     /* Home */
 	nav{
+	
         flex-direction: column ;
         display: none;
     }
@@ -667,7 +688,7 @@ body{
 		height: 1350px;
 	}
 	.skill-text{
-		width: 400px;
+		width: 100%;
 	}
 	.box-container{
 		display: grid;
@@ -715,5 +736,23 @@ body{
 		justify-content: center;
 		align-items: center;
 	}
+
+	/* about */
+	.about-container-custome{
+		width: 100%;
+	}
+	.about-container-custome img{
+		height: 260px;
+		margin-left: 30px;
+	}
+	.about-container-custome .about-text{
+		width: 85%;
+	}
+	.custome-about .custome-img{
+		width: 50%;
+		height: 30vh;
+		margin-left: 20px;
+	}
+
 	
 }
