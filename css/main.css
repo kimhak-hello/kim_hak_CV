@@ -498,7 +498,7 @@ body{
 	color: black;
 }
 .box-hobby-2{
-	background-image: url(/images/swimming.jpg);
+	background-image: url(/image/swimming.jpg);
 	width:30%;
 	height:48vh;
 	background-size:contain;
@@ -507,7 +507,7 @@ body{
 	background-color: white;
 }
 .box-hobby-3{
-	background-image: url(/images/guitar.jpg);
+	background-image: url(/image/guitar.jpg);
 	width:30%;
 	height:48vh;
 	background-size:cover;
