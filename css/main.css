@@ -408,9 +408,9 @@ textarea{
 
 /* Hobby */
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Open+Sans&family=Qahiri&family=Roboto:wght@100&family=UnifrakturMaguntia&display=swap');
-/* body{
+body{
 	background-color:  #dbf4f5;
-} */
+}
 .hobby-container{
 	background-color: #1171E2;
 	height: 135vh;
@@ -860,7 +860,7 @@ textarea{
 
 	/* hobby */
 	.hobby-container{
-		height: 260vh;
+		height: 270vh;
 		width: 100%;
 	}
 	.hobby-container .box-hobby-container{
