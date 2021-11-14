@@ -870,16 +870,15 @@ textarea{
 	.custome-about-hobby{
 		margin-top: 700px;
 	}
-	.custome-about-hobby img{
+	.custome-about-hobby .custome-hight{
 		height: 150px;
 	}
-	.about-container{
+	.m{
 		height: 70vh;
 		width: 90%;
-	}
-	.about-container .about-text{
 		padding: 0px 20px;
 	}
+
 	.box-hobby-1,
 	.box-hobby-2,
 	.box-hobby-3{
