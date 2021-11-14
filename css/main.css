@@ -628,20 +628,22 @@ body{
 	}
 	/* hobby */
 	.hobby-container{
-		height: 240vh;
+		height: 200vh;
 		width: 100%;
 	}
 	.hobby-container .box-hobby-container{
 		display: grid;
-		margin-left: 85px;
+		margin-left: 45px;
+		grid-template-columns: 1fr 1fr;
+		gap: 10;
 	}
-	.custome-about-hobby{
-		margin-top: 645px;
-	}
+	/* .custome-about-hobby{
+		margin-top: 45px;
+	} */
 	.box-hobby-1,
 	.box-hobby-2,
 	.box-hobby-3{
-		margin: 10px;
+		/* margin: 10px; */
 		width: 75%;
 		height: 48vh;
 		background-color: rgb(95, 94, 94);
@@ -650,6 +652,7 @@ body{
 	.box-hobby-2{
 		width:75%;
 		background-color: white;
+		margin-right: 0px;
 	}
 	.box-hobby-2 .text-box-2{
 		font-size: 15px;
@@ -696,7 +699,7 @@ body{
 		
 	}
 	.mt{
-		margin-top: 700px;
+		margin-top: 400px;
 	}
 }
 
