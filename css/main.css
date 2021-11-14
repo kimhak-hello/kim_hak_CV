@@ -869,6 +869,9 @@ body{
 	.custome-about-hobby{
 		margin-top: 700px;
 	}
+	.custome-about-hobby img{
+		height: 150px;
+	}
 	.box-hobby-1,
 	.box-hobby-2,
 	.box-hobby-3{
