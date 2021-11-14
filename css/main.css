@@ -408,9 +408,9 @@ textarea{
 
 /* Hobby */
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Open+Sans&family=Qahiri&family=Roboto:wght@100&family=UnifrakturMaguntia&display=swap');
-body{
+/* body{
 	background-color:  #dbf4f5;
-}
+} */
 .hobby-container{
 	background-color: #1171E2;
 	height: 135vh;
@@ -861,6 +861,7 @@ body{
 	/* hobby */
 	.hobby-container{
 		height: 260vh;
+		width: 100%;
 	}
 	.hobby-container .box-hobby-container{
 		display: grid;
@@ -871,6 +872,13 @@ body{
 	}
 	.custome-about-hobby img{
 		height: 150px;
+	}
+	.about-container{
+		height: 70vh;
+		width: 90%;
+	}
+	.about-container .about-text{
+		padding: 0px 20px;
 	}
 	.box-hobby-1,
 	.box-hobby-2,
