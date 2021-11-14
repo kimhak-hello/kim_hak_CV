@@ -654,44 +654,44 @@ body{
 		font-size: 15px;
 		width: 360px;
 	}
-	.box-hobby-2 .text-box-2 h1{
+	.box-hobby-container .box-hobby-2 .text-box-2 h1{
 		margin: 40px 10px 0 177px;
+		font-size: 20px;
+	}
+	.box-hobby-container .box-hobby-2 .text-box-2 p{
+		font-size: 15px;
+		margin: 10px 35px 0 137px ;
 	
 		
 	}
-
-
-	.box-container-music{
-		/* background-color: yellow; */
-		display: flex;
-		margin: 30px;
+	.box-hobby-container .box-hobby-3 .text-box-3 h1{
+		
+		font-size: 20px;
+		text-align: center;
 	}
-	.box-container-music img{
-		width: 220px;
-		height: 185px;
-		margin-top: 5px;
+	.box-hobby-container .box-hobby-3 .text-box-3 p{
+		font-size: 14px;
+		text-align: center;
+		font-family: sans-serif;
+	
+	
+	
 		
 	}
-	.box-container-music .box-text{
-		display: flex;
-		/* background-color: violet; */
-		margin-left: 5px;
+	.box-hobby-container .box-hobby-3 .size h1{
 	
-	}
-	.one-pare{
-		margin: 5px 5px 0 0;
-		width: 350px;
-	}
-	.one-pare p{
-		padding: 14px 14px;
-	}
-	.two-pare{
-		margin: 5px 0 0 0;
-	}
-	.two-pare p{
-		padding: 14px;
-	}
+		font-size: 15px;
 
+	}
+	.box-hobby-container .box-hobby-3 .size p{
+		font-size: 12px;
+		font-family: sans-serif;
+		width: 110px;
+		text-align: center;
+	
+	
+		
+	}
 }
 
 
@@ -850,6 +850,7 @@ body{
 	}
 	.about-container-custome .about-text p{
 		font-size: 12px;
+		padding-right: 30px;
 	}
 	.custome-about .custome-img{
 		width: 55%;
@@ -859,14 +860,14 @@ body{
 
 	/* hobby */
 	.hobby-container{
-		height: 267vh;
+		height: 260vh;
 	}
 	.hobby-container .box-hobby-container{
 		display: grid;
 		margin-left: 50px;
 	}
 	.custome-about-hobby{
-		margin-top: 645px;
+		margin-top: 700px;
 	}
 	.box-hobby-1,
 	.box-hobby-2,
