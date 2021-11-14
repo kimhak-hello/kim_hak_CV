@@ -539,6 +539,7 @@ body{
 }
 .box-hobby-3 .text-box-3 h1{
 	padding: 0 0 10px 10px;
+	font-size: 30px;
 }
 .box-hobby-3 img{
 	height: 48vh;
@@ -653,6 +654,8 @@ body{
 	.box-hobby-2 .text-box-2{
 		font-size: 15px;
 		width: 360px;
+		margin-left: 20px;
+		margin-right: 90px;
 	}
 	.box-hobby-container .box-hobby-2 .text-box-2 h1{
 		margin: 40px 10px 0 177px;
@@ -691,6 +694,9 @@ body{
 	
 	
 		
+	}
+	.mt{
+		margin-top: 700px;
 	}
 }
 
