@@ -779,6 +779,9 @@ body{
 		margin: 5px;
 		padding: 5px;
 	} 
+	.about-container .about-text p:nth-child(3){
+		text-align: justify;
+	}
 	.about-center{
 		display: flex;
 		justify-content: center;
@@ -863,6 +866,7 @@ body{
 	.about-container-custome .about-text p{
 		font-size: 12px;
 		padding-right: 30px;
+		text-align: justify;
 	}
 	.custome-about .custome-img{
 		width: 55%;
@@ -889,6 +893,9 @@ body{
 		height: 70vh;
 		width: 90%;
 		padding: 0px 20px;
+	}
+	.m p:nth-child(3){
+		text-align: justify;
 	}
 
 	.box-hobby-1,
