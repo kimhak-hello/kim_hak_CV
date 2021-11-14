@@ -910,8 +910,10 @@ body{
 	}
 	.box-hobby-2 .text-box-2 h1{
 		margin: 40px 10px 0 168px;
-	
-		
+	}
+	.box-hobby-2 .text-box-2 p{
+		text-align: justify;
+		margin-left: 160px;
 	}
 	.box-hobby-3 .text-box-3{
 		font-size: 12px;
@@ -919,7 +921,11 @@ body{
 	.box-hobby-3 .text-box-3 h1{
 		font-size: 13px;
 	}
-	
+	.box-hobby-3 .text-box-3 p{
+		text-align: justify;
+		/* background-color: #646464; */
+		width: 100%;
+	}
 	.box-container-music{
 		display: flex;
 		margin: 10px;
